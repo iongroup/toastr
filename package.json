@@ -1,5 +1,5 @@
 {
-  "name": "toastr",
+  "name": "@ionweb/toastr",
   "filename": "build/toastr.min.js",
   "main": "toastr.js",
   "style": "build/toastr.min.css",
