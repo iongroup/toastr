@@ -1,7 +1,7 @@
 {
   "name": "@ionweb/toastr",
   "main": "toastr.js",
-  "version": "2.1.5-ion1",
+  "version": "2.1.5-ion2",
   "description": "ToastrJS is a JavaScript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.",
   "homepage": "http://www.toastrjs.com",
   "keywords": [

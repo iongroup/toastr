@@ -10,9 +10,8 @@
  *
  * Project: https://github.com/CodeSeven/toastr
  */
-/* global define */
-(function (define) {
-    define(['jquery'], function ($) {
+import $ from "jquery";
+
         return (function () {
             var $container;
             var listener;
@@ -466,11 +465,3 @@
             }
 
         })();
-    });
-}(typeof define === 'function' && define.amd ? define : function (deps, factory) {
-    if (typeof module !== 'undefined' && module.exports) { //Node
-        module.exports = factory(require('jquery'));
-    } else {
-        window.toastr = factory(window.jQuery);
-    }
-}));
